@@ -1,0 +1,6 @@
+<svg id="folder-icon" viewBox="0 0 200 200" width="25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+    <g>
+        <rect class="folder-rect" x="0" y="3" width="80" height="80" rx="30"/>
+        <rect class="folder-rect" x="0" y="30" width="200" height="160" rx="30" ry="30"/>
+    </g>   
+</svg>

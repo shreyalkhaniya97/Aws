@@ -1,0 +1,7 @@
+<svg  id="file-icon" viewBox="0 0 200 200" width="25" fill="black" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    <g>
+        <rect x="20" y="10" width="165" height="190" rx="30"/>
+        <rect x="136" y="9" width="55" height="55" rx="30" ry="0" fill="white"/>
+        <polygon points="145,12 145,55 185,55"/>
+    </g>  
+</svg>

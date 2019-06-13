@@ -1,0 +1,20 @@
+[{
+    "id":"11",
+    "type":"folder",
+    "name":"new folder",
+    "source":"Dropbox",
+    "creationDate":"26/11/2014"
+},{
+    "id":"12",
+    "type":"folder",
+    "name":"new folder1",
+    "source":"Drive",
+    "creationDate":"04/12/2015"
+},{
+    "id":"13",
+    "type":"file",
+    "name":"test.pdf",
+    "source":"Drive",
+    "creationDate":"09/10/2015"
+}
+]

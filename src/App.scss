@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #6b6363;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  font-weight: 400;
+}
+
+.inputbox {
+  border-bottom: 2px solid black;
+}
+
+.header {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  height: 4rem;
+  font-size: 2rem;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+}
+
+.leftsection {
+  background-color: #012b74;
+  display: flex;
+  width: 22rem;
+  flex-direction: column;
+}
+
+.leftsection-header {
+  padding: 2rem;
+  margin-bottom: -1rem;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background: #ffffff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar .avatar-image {
+  width: 100%;
+}
+
+.menu-list {
+  flex: 1;
+  font-size: 1.7rem;
+}
+
+.img {
+  margin: 0.5px;
+}
+
+.leftsection .menu-list .menu-list-item a {
+  color: #ffffff;
+}
+
+.menu-list .menu-list-item {
+  flex: 1;
+  flex-basis: 0px;
+}
+
+.upload-file-svg {
+  width: 2.5rem;
+  justify-content: flex-start;
+}
+
+.create-folder-svg {
+  width: 2.6rem;
+  color: #012b74;
+}
+
+.menu-list .menu-list-item a {
+  padding: 1rem 2.5rem;
+  color: #616161;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-list .menu-list-item a:hover {
+  background-color: #01b9f5;
+  color: #ffffff;
+}
+
+.menu-list .menu-list-item a:active {
+  background-color: #01b9f5;
+}
+
+.rightsection {
+  border-left: solid 1px #ededed;
+  padding: 4rem 0 2rem;
+  width: 22rem;
+}
+
+li:hover {
+  background-color: beige;
+}
+.content {
+  margin: 1rem 3rem;
+  flex: 1;
+}
+.heading {
+  font-size: 2.3rem;
+  font-weight: normal;
+}
+
+.main-title {
+  border-bottom: solid 1px #ededed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputbox {
+  border: 0;
+  border-bottom: 2px solid grey;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #6b6363;
+  display: flex;
+  justify-content: space-between;
+}
+
+#grid-icon {
+  fill: red;
+}
+
+.grid-icon svg {
+  width: 2rem;
+  fill: #012b74;
+}
+
+.svg-icon {
+  cursor: pointer;
+
+  .icon {
+    width: 2rem;
+  }
+}
+
+.grid-icon svg:hover {
+  fill: #01b9f5;
+}
+
+.list-icon svg {
+  width: 1.9rem;
+  color: #012b74;
+}
+
+.list-icon svg:hover {
+  fill: #01b9f5;
+}
+
+hr {
+  border-color: #e2e2e2;
+  border-style: solid;
+  border-width: 0.3px;
+}
+
+.upload-list {
+  margin-bottom: 2rem;
+}
+
+.isListView {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.isGridView {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.upload-list.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.upload-list-item {
+  padding: 1.5rem 0;
+  border-bottom: solid 1px #ededed;
+  display: flex;
+  flex: 1;
+}
+
+.items {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 0px;
+  margin-left: 2rem;
+}
+
+.items .items-title {
+  font-weight: 600;
+  color: #000;
+  font-size: 1.4rem;
+}
+
+.folder-rect {
+  fill: red;
+  background: blue;
+}
